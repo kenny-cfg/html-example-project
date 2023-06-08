@@ -4,7 +4,7 @@ for (const paragraphElement of paragraphElements) {
   paragraphElement.style.backgroundColor = 'blue'
 }
 
-
-/*
-DOM - Document Object Model
-*/
+const buttonElement = document.getElementById('button')
+buttonElement.onclick = function() {
+  console.log('HELP! I need somebody')
+}
