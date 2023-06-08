@@ -28,3 +28,16 @@ function resetCounter() {
   counter = 0
   displayCounter()
 }
+
+const listItems = ['Kenny', 'Laura', 'Sara', 'Gillian']
+const listElements = []
+for (const listItem of listItems) {
+  const newListElement = document.createElement('li')
+  newListElement.innerText = listItem
+  listElements.push(newListElement)
+}
+const listElement = document.getElementById('list')
+listElement.innerHTML = ''
+for (const newListElement of listElements) {
+  listElement.appendChild(newListElement)
+}
