@@ -3,10 +3,6 @@ h1 {
   background-color: pink;
 }
 
-#top-heading {
-  font-size: small;
-}
-
 .heading {
   background-color: black;
 }
@@ -15,7 +11,7 @@ h1 {
   background-color: aquamarine;
 }
 
-.paragraph {
+.poo {
   font-style: italic;
 }
 
