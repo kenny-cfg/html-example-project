@@ -1,11 +1,15 @@
+const increaseButton = document.getElementById('increase')
+const decreaseButton = document.getElementById('decrease')
+const counterElement = document.getElementById('counter')
+
 let counter = 0
 displayCounter()
 
-document.getElementById('increase').onclick = incrementCounter
-document.getElementById('decrease').onclick = decreaseCounter
+increaseButton.onclick = incrementCounter
+decreaseButton.onclick = decreaseCounter
 
 function displayCounter() {
-  document.getElementById('counter').innerText = counter
+  counterElement.innerText = counter
 }
 
 function incrementCounter() {
