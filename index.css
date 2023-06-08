@@ -3,6 +3,14 @@ h1 {
   background-color: pink;
 }
 
+#top-heading {
+  font-size: xx-small;
+}
+
+.heading {
+  background-color: black;
+}
+
 h2 {
   color: blue;
   font-family:Arial, Helvetica, sans-serif;
