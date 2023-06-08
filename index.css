@@ -4,11 +4,19 @@ h1 {
 }
 
 #top-heading {
-  font-size: xx-small;
+  font-size: small;
 }
 
 .heading {
   background-color: black;
+}
+
+.more-text {
+  background-color: aquamarine;
+}
+
+.paragraph {
+  font-style: italic;
 }
 
 h2 {
